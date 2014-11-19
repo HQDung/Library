@@ -1,0 +1,272 @@
+﻿body {
+    font-family: Times New Roman;
+    font-size: 12px;
+    background-image: url('./image/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 80%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    width: 10%;
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.right {
+    width: 10%;
+    right:5%;
+    padding: 0;
+    top: 100px;
+    height: 100%;
+    position: fixed;
+}
+
+    .right .loginform {
+        width: 8%;
+        margin: 150px auto 0;
+        padding: 10px;
+        float: right;
+        -moz-border-radius-topleft: 10px;
+        -webkit-border-top-left-radius: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-topright: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        display: inline;
+    }
+
+        .right .loginform td {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .right .loginform input[type="text"], .right .loginform input[type="password"] {
+            /*padding: 10px;*/
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-bottom: 5px;
+        }
+
+    .right a, .right a:hover {
+        text-shadow: none !important;
+        color: #22878E;
+        font-size: 13px;
+    }
+
+    .right .loginform #loginicon {
+        width: 100px;
+        float: left;
+        vertical-align: middle;
+        right:10px;
+        /*float:right;*/
+    }
+
+    .right #login input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .right .loginform #loginicon img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right .loginform #login {
+        box-shadow: 1px 0 1px #fff,0 0 3px rgba(0,0,0,0.2) inset;
+        -moz-box-shadow: 1px 0 1px #fff,0 0 3px rgba(0,0,0,0.2) inset;
+        -webkit-box-shadow: 1px 0 1px #fff,0 0 3px rgba(0,0,0,0.2) inset;
+        padding: 10px;
+        background-color: #e3e3e3;
+        float: right;
+        -moz-border-radius-topleft: 10px;
+        -webkit-border-top-left-radius: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-topright: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+    }
+
+.top {
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.54);
+    height: 195px;
+    margin-bottom: 5px;
+}
+
+.topcontent {
+    background-color: white;
+    position: relative;
+    top: 13px;
+    left: 1.5%;
+    height: 160px;
+    width: 97%;
+}
+
+.banner {
+    height: 120px;
+}
+
+.topmenu {
+    height: 40px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.54);
+    min-height: 600px;
+    margin-bottom: 5px;
+}
+
+.introduce {
+    background-color: white;
+    position: relative;
+    float: left;
+    top: 13px;
+    left: 1.5%;
+    height: 400px;
+    width: 97%;
+}
+
+    .introduce .wrapper {
+        position: relative;
+        float: left;
+        left: 1.5%;
+        top: 5%;
+        width: 50%;
+        background-color: none;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .introduce .cycle-slideshow {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        float: left;
+    }
+
+    .introduce .cycle-pager {
+        text-align: center;
+        width: 100%;
+        z-index: 500;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin-top: -15px;
+    }
+
+    .introduce .composite-example > div .cycle-overlay {
+        color: white;
+        background: black;
+        opacity: .6;
+        filter: alpha(opacity=60);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom:15px;
+        font-size:20px;
+    }
+
+    .introduce .cycle-pager span {
+        font-family: arial;
+        font-size: 50px;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        color: #ddd;
+        cursor: pointer;
+    }
+
+        .introduce .cycle-pager span.cycle-pager-active {
+            color: #D69746;
+        }
+
+    .introduce .cycle-pager > * {
+        cursor: pointer;
+    }
+
+
+    .introduce .wrapper img {
+        width: 100%;
+        height: 340px;
+    }
+
+    .introduce .imageshow li {
+        list-style: none;
+        color: #4360DF;
+        text-align: center;
+        height: 315px;
+        overflow: hidden;
+        padding-left: -10px;
+        display: inline;
+    }
+
+/*.introduce .imageshow img {
+            width: 100%;
+            height: 315px;
+        }*/
+
+.leftcontent {
+    background-color: white;
+    width: 70%;
+    position: relative;
+    float: left;
+    top: 15px;
+    left: 2%;
+    min-height: 64%;
+}
+
+.rightcontent {
+    background-color: white;
+    position: relative;
+    width: 24%;
+    height: 64%;
+    top: 15px;
+    right: 2%;
+    float: right;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.54);
+    height: 100px;
+}
+
+.footercontent {
+    background-color: rgb(10, 68, 149);
+    position: relative;
+    top: 13px;
+    left: 1.5%;
+    height: 70px;
+    width: 97%;
+}
+
+.visible {
+    position: relative;
+    visibility: visible;
+}
+
+.hidden {
+    position: absolute;
+    visibility: hidden;
+}

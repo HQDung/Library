@@ -1,0 +1,126 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+a {
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+}
+
+#nav_bar {
+    padding: 0px 0px 0px 20px;
+}
+
+.QLDG_nav {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+}
+
+    .QLDG_nav:hover {
+        background-color: #0a4495;
+        color: white;
+    }
+
+#content_QLDG {
+    margin: 0px 20px 10px 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    width: 37%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dg_left td {
+    height: 37px;
+}
+
+.dg_search {
+    margin-left: 15%;
+}
+
+    .dg_search td {
+        height: 37px;
+    }
+
+.QLDG_avt {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+#content_QLDG_right {
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+}
+
+#content_QLDG2 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.btnMenu2 {
+    width: 120px;
+    height: 30px;
+}
+
+.pagination {
+    margin: 0px 20%;
+    list-style: none;
+    display: inline-flex;
+}
+
+    .pagination li a {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 1px black solid;
+    }
+
+    .pagination li a {
+        color: #0a4495;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+        .pagination li a:hover {
+            background-color: #0a4495;
+            color: white;
+        }
+
+        .pagination li a:visited {
+            color: gray;
+        }
+
+.dg_left1 {
+    margin-left: 80px;
+}
+
+    .dg_left1 td {
+        height: 40px;
+    }
+
+#content_TKDG {
+    margin: 0px 20px 10px 10px;
+    padding-left: 20px;
+    font-size: 17px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#content_TKDG_right {
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}

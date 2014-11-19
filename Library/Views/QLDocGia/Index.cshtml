@@ -1,0 +1,171 @@
+﻿@model PagedList.IPagedList<Library.Models.DocGia>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Quản lý độc giả";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="idmax" hidden>@ViewBag.maxID</div>
+<div id="nav_bar">
+    <a href="@Url.Action("Index", "QLDocGia")">
+        <div class="QLDG_nav">
+            Quản lý độc giả
+        </div>
+    </a>
+    <a href="@Url.Action("ThongKe", "QLDocGia")">
+        <div class="QLDG_nav">
+            Thống kê
+        </div>
+    </a>
+</div>
+
+<div id="content_QLDG">
+    <div id="content_QLDG1">
+        <form action="/QLDocGia/SaveInfor" id='QLDG_form' method="post">
+            <table class="dg_left">
+                <tr>
+                    <td>Họ tên</td>
+                    <td colspan="3">
+                        <input type="hidden" id="id_stored" name="id" />
+                        <input type="text" disabled="disabled" id="ten_stored" class="QL_form" style='width: 275px;' name="hoten" /></td>
+                </tr>
+                <tr>
+                    <td>SĐT</td>
+                    <td colspan="3">
+                        <input type="text" disabled="disabled" id="sdt_stored" class="QL_form" style='width: 275px;' name="sdt" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>CMND</td>
+                    <td colspan="3">
+                        <input type="text" disabled="disabled" id="cmnd_stored" class="QL_form" style='width: 275px;' name="cmnd" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td colspan="3">
+                        <input type="text" disabled="disabled" id="mail_stored" class="QL_form" style='width: 275px;' name="email" /></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td colspan="3">
+                        <input type="text" disabled="disabled" id="dc_stored" class="QL_form" style='width: 275px;' name="dc" /></td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td colspan="2">
+                        <input type="text" disabled="disabled" id="dob_stored" class="QL_form" name="dob" /></td>
+                    <td>
+                        <input type="button" value='Thêm mới ' id="TM_QL" class='btnMenu2' onclick="clearInfor()" /></td>
+                </tr>
+                <tr>
+                    <td>Ngày ĐK</td>
+                    <td colspan="2">
+                        <input type="text" disabled="disabled" id="dk_stored" class="QL_form" name="dk" /></td>
+                    <td>
+                        <input type="button" value='Cập nhật ' id="CN_QL" class='btnMenu2' onclick="enable()" /></td>
+                </tr>
+                <tr>
+                    <td>Ngày hết hạn</td>
+                    <td colspan="2">
+                        <input type="text" disabled="disabled" id="hh_stored" class="QL_form" name="hh" /></td>
+                    <td>
+                        <input type="button" value='Xóa' class='btnMenu2' onclick="btnDelete()" /></td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td colspan="2">
+                        <input type='radio' name="gt" value="Nam" id="nam_rad" />Nam
+                            <input type="radio" name="gt" id="nu_rad" value="Nu" />Nữ </td>
+                    <td>
+                        <input type="submit" value='Lưu' disabled id="sm_QLForm" class='btnMenu2' /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="QLDG_search">
+        <p style="font-style: italic; font-size: 14px; font-weight: bold;">Tìm kiếm</p>
+        <fieldset>
+            <form action ="/QLDocGia/Index" id="dg_search" method="get">
+                <table class="dg_search">
+                    <tr>
+                        <td>Mã ĐG</td>
+                        <td style="width: 190px;">
+                            <input type='text' name="madg" id="" /><span style="color: red;" class="notice_QL" hidden>*</span></td>
+                    </tr>
+                    <tr>
+                        <td>Tên ĐG</td>
+                        <td>
+                            <input type='text' name="ten" /><span style="color: red;" class="notice_QL" hidden>*</span></td>
+                    </tr>
+                    <tr>
+                        <td>SĐT</td>
+                        <td>
+                            <input type='text' name="sdt" /><span style="color: red;" class="notice_QL" hidden>*</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value='Tìm kiếm' style='width: 150px; height: 30px;' /></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+
+</div>
+<div id="content_QLDG_right">
+    <div class="QLDG_avt">
+        <div style="display: inline-block; vertical-align: top; width: 120px; height: 120px; border: chocolate medium solid;">
+        </div>
+    </div>
+    <p style="font-style: italic; font-size: 14px; font-weight: bold;">Danh sách độc giả</p>
+    <div id="content_QLDG2">
+        <table border='1' id="list_DG">
+            <tr>
+                <th style="width: 80px">Mã ĐG</th>
+                <th style="width: 120px">Họ tên</th>
+                <th style="width: 80px">Ngày sinh</th>
+                <th style="width: 60px">Giới tính</th>
+                <th style="width: 80px">Ngày ĐK</th>
+                <th style="width: 90px">Ngày hết hạn</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr id="@item.MaDocGia">
+                    <td>@item.MaDocGia</td>
+                    <td>@item.HoTen</td>
+                    @if (@item.NgaySinh != null)
+                    {
+                        <td>@item.NgaySinh.Value.ToString("dd/MM/yyyy")</td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+                    <td>@item.GioiTinh</td>
+                    @if (@item.NgayDangKy != null)
+                    {
+                        <td>@item.NgayDangKy.Value.ToString("dd/MM/yyyy")</td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+                    @if (@item.NgayHetHan != null)
+                    {
+                        <td>@item.NgayHetHan.Value.ToString("dd/MM/yyyy")</td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+                </tr>
+            }
+        </table>
+        <br />
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page,madg = @ViewBag.madg,ten = @ViewBag.ten,sdt=@ViewBag.sdt }))
+    </div>
+    <div id="listitems-pagination" style="display: none">
+        <a id="listitems-previous" href="#" class="disabled">&laquo; Previous</a>
+        <a id="listitems-next" href="#">Next &raquo;</a>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+﻿@model PagedList.IPagedList<Library.Models.DocGia>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Chi tiết thống kê";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="nav_bar">
+    <a href="@Url.Action("Index", "QLDocGia")">
+        <div class="QLDG_nav">
+            Quản lý độc giả
+        </div>
+    </a>
+    <a href="@Url.Action("ThongKe", "QLDocGia")">
+        <div class="QLDG_nav">
+            Thống kê
+        </div>
+    </a>
+</div>
+
+<br />
+@if (Model != null)
+{
+    <table width='650' border='1' style="display: inline-block; margin-top: 10px; margin-left: 60px;font-size:15px;">
+        <tr>
+            <td width='70'>Mã ĐG</td>
+            <td width='100'>Họ tên</td>
+            <td width='120'>Ngày sinh</td>
+            <td width='100'>Địa chỉ</td>
+            <td width='80'>Giới tính</td>
+            <td width='100'>Ngày ĐK</td>
+            <td width='100'>Ngày hết hạn</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaDocGia</td>
+                <td>@item.HoTen</td>
+                @if (@item.NgaySinh != null)
+                {
+                    <td>@item.NgaySinh.Value.ToString("dd/MM/yyyy")</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+                <td>@item.DiaChi</td>
+                <td>@item.GioiTinh</td>
+                @if (@item.NgayDangKy != null)
+                {
+                    <td>@item.NgayDangKy.Value.ToString("dd/MM/yyyy")</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+                @if (@item.NgayHetHan != null)
+                {
+                    <td>@item.NgayHetHan.Value.ToString("dd/MM/yyyy")</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+            </tr>
+        }
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("rsThongKe", new { page,tngay=@ViewBag.tn,dngay=@ViewBag.dn,loai=@ViewBag.loai,tk=@ViewBag.tk }))
+}

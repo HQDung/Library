@@ -1,0 +1,253 @@
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Library.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Library.pdb
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Antlr3.Runtime.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.AspNet.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.Core.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OAuth.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OpenId.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\EntityFramework.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Data.Edm.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Data.OData.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Newtonsoft.Json.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Spatial.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Helpers.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Http.OData.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Mvc.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Optimization.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Razor.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.WebPages.Deployment.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.WebPages.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.WebPages.Razor.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\WebGrease.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\WebMatrix.Data.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\WebMatrix.WebData.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\EntityFramework.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Newtonsoft.Json.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Helpers.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Mvc.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Razor.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.WebPages.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.WebPages.Deployment.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.WebPages.Razor.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\WebMatrix.Data.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\WebMatrix.WebData.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.AspNet.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.Core.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OAuth.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OpenId.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Web.Http.OData.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Data.Edm.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\Microsoft.Data.OData.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\System.Spatial.xml
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\de\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\es\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\it\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\de\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\es\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\fr\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\it\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ja\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ko\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\ru\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\zh-Hans\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\bin\zh-Hant\System.Spatial.resources.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\obj\Debug\Library.dll
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\obj\Debug\Library.pdb
+E:\Lap Trinh\Nam 4\Ki 1\HTTT\Thuc Hanh\Project\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Library\Library\bin\Library.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\Library.pdb
+C:\Users\Administrator\Downloads\Library\Library\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\EntityFramework.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Data.Edm.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Data.OData.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Spatial.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Http.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Http.OData.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Razor.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\WebGrease.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\EntityFramework.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Http.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Razor.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Web.Http.OData.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Data.Edm.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\Microsoft.Data.OData.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\System.Spatial.xml
+C:\Users\Administrator\Downloads\Library\Library\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\de\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\es\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\fr\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\it\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ja\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ko\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\ru\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Library\Library\obj\Debug\Library.dll
+C:\Users\Administrator\Downloads\Library\Library\obj\Debug\Library.pdb
+C:\Users\Administrator\Desktop\Library\Library\bin\Library.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\Library.pdb
+C:\Users\Administrator\Desktop\Library\Library\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Data.Edm.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Data.OData.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Spatial.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Http.OData.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Web.Http.OData.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Data.Edm.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\Microsoft.Data.OData.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\System.Spatial.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\de\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\es\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\fr\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\it\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ja\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ko\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\ru\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.dll
+C:\Users\Administrator\Desktop\Library\Library\obj\Debug\Library.pdb
+C:\Users\Administrator\Desktop\Library\Library\bin\PagedList.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\PagedList.Mvc.dll
+C:\Users\Administrator\Desktop\Library\Library\bin\PagedList.xml
+C:\Users\Administrator\Desktop\Library\Library\bin\PagedList.Mvc.xml

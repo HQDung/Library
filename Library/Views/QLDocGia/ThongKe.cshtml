@@ -1,0 +1,118 @@
+﻿@model PagedList.IPagedList<Library.Models.DocGia>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Thống kê";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="nav_bar">
+    <a href="@Url.Action("Index", "QLDocGia")">
+        <div class="QLDG_nav">
+            Quản lý độc giả
+        </div>
+    </a>
+    <a href="@Url.Action("ThongKe", "QLDocGia")">
+        <div class="QLDG_nav">
+            Thống kê
+        </div>
+    </a>
+</div>
+
+<div id="content_TKDG">
+    <form action="#" method="post" id="form_tk">
+        <table style="width: 400px; margin-top: 40px;" class="dg_left1">
+            <tr>
+                <td style="width: 100px;">Từ ngày</td>
+                <td style="width: 270px;" colspan="2">
+                    <input type="date" name="tngay" id="tngay" />
+                </td>
+            </tr>
+            <tr>
+                <td>Đến ngày</td>
+                <td colspan="2">
+                    <input type="date" name="dngay" id="dngay" /></td>
+            </tr>
+            <tr>
+                <td>Thống kê theo</td>
+                <td colspan="2">
+                    <select name="loai" style="width: 145px;height:25px;" id="loai">
+                        <option value="1">Tháng</option>
+                        <option value="2">Năm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="tk" value="1"  />Thống kê đọc giả đăng kí mới</td>
+                <td rowspan="3" style="width: 100px">
+                    <input type="button" value="Thống kê" style="width: 80px; height: 100px;" id="btnFormTK"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="tk" value="2" />Thống kê đọc giả trễ hạn</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="tk" value="3" />Thống kê sách được mượn nhiều nhất</td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div id="content_TKDG_right">
+    <p style="font-style: italic; font-size: 14px;font-weight:bold;">Biểu đồ thống kê</p>
+    <canvas id="canvas" height="400" width="450"></canvas>
+    <div>
+        <input type="button" id="detailTK" value="Chi tiết" hidden/>
+    </div>
+</div>
+
+<br />
+@if (Model != null)
+{
+    <table width='650' border='1' style="display: inline-block; margin-top: 10px; margin-left: 60px;font-size:15px;">
+        <tr>
+            <td width='70'>Mã ĐG</td>
+            <td width='100'>Họ tên</td>
+            <td width='120'>Ngày sinh</td>
+            <td width='100'>Địa chỉ</td>
+            <td width='80'>Giới tính</td>
+            <td width='100'>Ngày ĐK</td>
+            <td width='100'>Ngày hết hạn</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaDocGia</td>
+                <td>@item.HoTen</td>
+                @if (@item.NgaySinh != null)
+                {
+                    <td>@item.NgaySinh.Value.ToString("dd/MM/yyyy")</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+                <td>@item.DiaChi</td>
+                <td>@item.GioiTinh</td>
+                @if (@item.NgayDangKy != null)
+                {
+                    <td>@item.NgayDangKy.Value.ToString("dd/MM/yyyy")</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+                @if (@item.NgayHetHan != null)
+                {
+                    <td>@item.NgayHetHan.Value.ToString("dd/MM/yyyy")</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+            </tr>
+        }
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("rsThongKe", new { page,tngay=@ViewBag.tn,dngay=@ViewBag.dn,loai=@ViewBag.loai,tk=@ViewBag.tk }))
+}
