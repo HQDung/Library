@@ -21,63 +21,78 @@
 
 <div id="content_QLDG">
     <div id="content_QLDG1">
-        <form action="/QLDocGia/SaveInfor" id='QLDG_form' method="post">
+        <form action="/QLDocGia/SaveInfor" id='QLDG_form' method="post" onsubmit="return validate();">
             <table class="dg_left">
                 <tr>
                     <td>Họ tên</td>
                     <td colspan="3">
                         <input type="hidden" id="id_stored" name="id" />
-                        <input type="text" disabled="disabled" id="ten_stored" class="QL_form" style='width: 275px;' name="hoten" /></td>
+                        <input type="text" disabled="disabled" id="ten_stored" class="QL_form" style='width: 275px;' name="hoten" /><span style="color: red;" class="noticeform_QL" hidden>*</span></td>
                 </tr>
                 <tr>
                     <td>SĐT</td>
                     <td colspan="3">
                         <input type="text" disabled="disabled" id="sdt_stored" class="QL_form" style='width: 275px;' name="sdt" />
+                        <span style="color: red;" class="noticeform_QL" hidden>*</span>
                     </td>
                 </tr>
                 <tr>
                     <td>CMND</td>
                     <td colspan="3">
-                        <input type="text" disabled="disabled" id="cmnd_stored" class="QL_form" style='width: 275px;' name="cmnd" /></td>
+                        <input type="text" disabled="disabled" id="cmnd_stored" class="QL_form" style='width: 275px;' name="cmnd" />
+                        <span style="color: red;" class="noticeform_QL" hidden>*</span>
+                    </td>
                 </tr>
                 <tr>
                     <td>Email</td>
                     <td colspan="3">
-                        <input type="text" disabled="disabled" id="mail_stored" class="QL_form" style='width: 275px;' name="email" /></td>
+                        <input type="text" disabled="disabled" id="mail_stored" class="QL_form" style='width: 275px;' name="email" />
+                        <span style="color: red;" class="noticeform_QL" hidden>*</span>
+                    </td>
                 </tr>
                 <tr>
                     <td>Địa chỉ</td>
                     <td colspan="3">
-                        <input type="text" disabled="disabled" id="dc_stored" class="QL_form" style='width: 275px;' name="dc" /></td>
+                        <input type="text" disabled="disabled" id="dc_stored" class="QL_form" style='width: 275px;' name="dc" />
+                        <span style="color: red;" class="noticeform_QL" hidden>*</span>
+                    </td>
                 </tr>
                 <tr>
                     <td>Ngày sinh</td>
                     <td colspan="2">
-                        <input type="text" disabled="disabled" id="dob_stored" class="QL_form" name="dob" /></td>
+                        <input type="text" disabled="disabled" id="dob_stored" class="QL_form" name="dob" />
+                        <span style="color: red;" class="noticeform_QL" hidden>*</span>
+                    </td>
                     <td>
                         <input type="button" value='Thêm mới ' id="TM_QL" class='btnMenu2' onclick="clearInfor()" /></td>
                 </tr>
                 <tr>
                     <td>Ngày ĐK</td>
                     <td colspan="2">
-                        <input type="text" disabled="disabled" id="dk_stored" class="QL_form" name="dk" /></td>
+                        <input type="text" disabled="disabled" id="dk_stored" class="QL_form" name="dk" />
+                        <span style="color: red;" class="noticeform_QL" hidden>*</span>
+                    </td>
                     <td>
-                        <input type="button" value='Cập nhật ' id="CN_QL" class='btnMenu2' onclick="enable()" /></td>
+                        <input type="button" value='Cập nhật ' disabled id="CN_QL" class='btnMenu2' onclick="enable()" /></td>
                 </tr>
                 <tr>
                     <td>Ngày hết hạn</td>
                     <td colspan="2">
-                        <input type="text" disabled="disabled" id="hh_stored" class="QL_form" name="hh" /></td>
+                        <input type="text" disabled="disabled" id="hh_stored" class="QL_form" name="hh" />
+                        <span style="color: red;" class="noticeform_QL" hidden>*</span>
+                    </td>
                     <td>
-                        <input type="button" value='Xóa' class='btnMenu2' onclick="btnDelete()" /></td>
+                        <input type="submit" value='Lưu' disabled id="sm_QLForm" class='btnMenu2' /></td>
                 </tr>
                 <tr>
                     <td>Giới tính</td>
                     <td colspan="2">
                         <input type='radio' name="gt" value="Nam" id="nam_rad" />Nam
-                            <input type="radio" name="gt" id="nu_rad" value="Nu" />Nữ </td>
+                            <input type="radio" name="gt" id="nu_rad" value="Nu" />Nữ 
+                            <span style="color: red;" class="noticeform_QL" hidden>*</span>
+                    </td>
                     <td>
-                        <input type="submit" value='Lưu' disabled id="sm_QLForm" class='btnMenu2' /></td>
+                        <input type="button" value='Xóa' disabled id="btnDel_QLForm" class='btnMenu2' onclick="btnDelete()" /></td>
                 </tr>
             </table>
         </form>
@@ -85,7 +100,7 @@
     <div id="QLDG_search">
         <p style="font-style: italic; font-size: 14px; font-weight: bold;">Tìm kiếm</p>
         <fieldset>
-            <form action ="/QLDocGia/Index" id="dg_search" method="get">
+            <form action="/QLDocGia/Index" id="dg_search" method="post">
                 <table class="dg_search">
                     <tr>
                         <td>Mã ĐG</td>
@@ -162,7 +177,7 @@
             }
         </table>
         <br />
-        @Html.PagedListPager(Model, page => Url.Action("Index", new { page,madg = @ViewBag.madg,ten = @ViewBag.ten,sdt=@ViewBag.sdt }))
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, madg = @ViewBag.madg, ten = @ViewBag.ten, sdt = @ViewBag.sdt }))
     </div>
     <div id="listitems-pagination" style="display: none">
         <a id="listitems-previous" href="#" class="disabled">&laquo; Previous</a>

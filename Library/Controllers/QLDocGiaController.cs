@@ -77,25 +77,25 @@ namespace Library.Controllers
             else
                 dk = null; ;
 
-            sb.AppendFormat("<form action='/QLDocGia/SaveInfor' method='post' name='QLDG_form'>");
+            sb.AppendFormat("<form action='/QLDocGia/SaveInfor' method='post' id='QLDG_form' onsubmit='return validate();'>");
             sb.AppendFormat("<table class='dg_left'><tr><td>Họ tên</td><td colspan='3'>");
             sb.AppendFormat("<input type='hidden' value='{0}' name='id'  id='id_stored'  />", result.MaDocGia);
-            sb.AppendFormat("<input type='text' disabled='disabled' name='hoten' value='{0}' class='QL_form' style='width: 275px;' /></td></tr>", result.HoTen);
-            sb.AppendFormat("<tr><td>SĐT</td><td colspan='3'><input type='text' disabled='disabled' value='{0}' name='sdt' class='QL_form' style='width: 275px;' /></td></tr>", result.SDT);
-            sb.AppendFormat("<tr><td>CMND</td><td colspan='3'><input type='text' disabled='disabled' value='{0}' name='cmnd' class='QL_form' style='width: 275px;' /></td></tr>", result.CMND);
-            sb.AppendFormat("<tr><td>Email</td><td colspan='3'><input type='text' disabled='disabled' class='QL_form' name='email' value='{0}' style='width: 275px;' /></td></tr>", result.EMail);
-            sb.AppendFormat("<tr><td>Địa chỉ</td><td colspan='3'><input type='text' disabled='disabled' name='dc' value='{0}' class='QL_form' style='width: 275px;' /></td></tr>", result.DiaChi);
-            sb.AppendFormat("<tr><td>Ngày sinh</td><td colspan='2'><input type='text' value='{0}' name='dob' disabled='disabled' class='QL_form' /></td>", ns);
+            sb.AppendFormat("<input type='text' disabled='disabled' name='hoten' value='{0}' class='QL_form' style='width: 275px;' /><span style='color: red;' class='noticeform_QL' hidden>*</span></td></tr>", result.HoTen);
+            sb.AppendFormat("<tr><td>SĐT</td><td colspan='3'><input type='text' disabled='disabled' value='{0}' name='sdt' class='QL_form' style='width: 275px;' /><span style='color: red;' class='noticeform_QL' hidden>*</span></td></tr>", result.SDT);
+            sb.AppendFormat("<tr><td>CMND</td><td colspan='3'><input type='text' disabled='disabled' value='{0}' name='cmnd' class='QL_form' style='width: 275px;' /><span style='color: red;' class='noticeform_QL' hidden>*</span></td></tr>", result.CMND);
+            sb.AppendFormat("<tr><td>Email</td><td colspan='3'><input type='text' disabled='disabled' class='QL_form' name='email' value='{0}' style='width: 275px;' /><span style='color: red;' class='noticeform_QL' hidden>*</span></td></tr>", result.EMail);
+            sb.AppendFormat("<tr><td>Địa chỉ</td><td colspan='3'><input type='text' disabled='disabled' name='dc' value='{0}' class='QL_form' style='width: 275px;' /><span style='color: red;' class='noticeform_QL' hidden>*</span></td></tr>", result.DiaChi);
+            sb.AppendFormat("<tr><td>Ngày sinh</td><td colspan='2'><input type='text' value='{0}' name='dob' disabled='disabled' class='QL_form' /><span style='color: red;' class='noticeform_QL' hidden>*</span></td>", ns);
             sb.AppendFormat("<td><input type='button' value='Thêm mới' onclick='clearInfor()' id='TM_QL' class='btnMenu2' /></td></tr>");
-            sb.AppendFormat("<tr><td>Ngày ĐK</td><td colspan='2'><input type='text' disabled='disabled' name='dk' value='{0}' class='QL_form'  /></td>", dk);
-            sb.AppendFormat("<td><input type='button' value='Cập nhật ' id='CN_QL' onclick='enable()' class='btnMenu2' /></td></tr>");
-            sb.AppendFormat("<tr><td>Ngày hết hạn</td><td colspan='2'><input type='text' disabled='disabled' name='hh' value='{0}' class='QL_form'  /></td>", hh);
-            sb.AppendFormat("<td><input type='button' value='Xóa' class='btnMenu2' onclick='btnDelete()' /></td></tr>");
+            sb.AppendFormat("<tr><td>Ngày ĐK</td><td colspan='2'><input type='text' disabled='disabled' name='dk' value='{0}' class='QL_form'  /><span style='color: red;' class='noticeform_QL' hidden>*</span></td>", dk);
+            sb.AppendFormat("<td><input type='button' value='Cập nhật ' id='CN_QL' disabled onclick='enable()' class='btnMenu2' /></td></tr>");
+            sb.AppendFormat("<tr><td>Ngày hết hạn</td><td colspan='2'><input type='text' disabled='disabled' name='hh' value='{0}' class='QL_form'  /><span style='color: red;' class='noticeform_QL' hidden>*</span></td>", hh);
+            sb.AppendFormat("<td><input type='submit' value='Lưu' disabled id='sm_QLForm' class='btnMenu2' /></td></tr>");
             if (result.GioiTinh.Trim().CompareTo("Nam") == 0)
-                sb.AppendFormat("<tr><td>Giới tính</td><td colspan='2'><input type='radio' name='gt' checked='checked' value='Nam'/>Nam<input type='radio' name='gt' value='Nu'/>Nữ </td>");
+                sb.AppendFormat("<tr><td>Giới tính</td><td colspan='2'><input type='radio' name='gt' checked='checked' value='Nam'/>Nam<input type='radio' name='gt' value='Nu'/>Nữ <span style='color: red;' class='noticeform_QL' hidden>*</span></td>");
             else
-                sb.AppendFormat("<tr><td>Giới tính</td><td colspan='2'><input type='radio' name='gt' value='Nam' />Nam<input type='radio' name='gt' checked='checked' value='Nu' />Nữ </td>");
-            sb.AppendFormat("<td><input type='submit' value='Lưu' disabled id='sm_QLForm' class='btnMenu2' /></td></tr></table></form>");
+                sb.AppendFormat("<tr><td>Giới tính</td><td colspan='2'><input type='radio' name='gt' value='Nam' />Nam<input type='radio' name='gt' checked='checked' value='Nu' />Nữ <span style='color: red;' class='noticeform_QL' hidden>*</span></td>");
+            sb.AppendFormat("<td><input type='button' value='Xóa' class='btnMenu2' disabled id='btnDel_QLForm' onclick='btnDelete()' /></td></tr></table></form>");
             Response.Write(sb.ToString());
             return null;
         }

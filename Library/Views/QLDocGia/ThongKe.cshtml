@@ -25,17 +25,20 @@
                 <td style="width: 100px;">Từ ngày</td>
                 <td style="width: 270px;" colspan="2">
                     <input type="date" name="tngay" id="tngay" />
+                    <span style="color: red;" class="noticeform_TK" hidden>*</span>
                 </td>
             </tr>
             <tr>
                 <td>Đến ngày</td>
                 <td colspan="2">
-                    <input type="date" name="dngay" id="dngay" /></td>
+                    <input type="date" name="dngay" id="dngay" />
+                    <span style="color: red;" class="noticeform_TK" hidden>*</span>
+                </td>
             </tr>
             <tr>
                 <td>Thống kê theo</td>
                 <td colspan="2">
-                    <select name="loai" style="width: 145px;height:25px;" id="loai">
+                    <select name="loai" style="width: 145px; height: 25px;" id="loai">
                         <option value="1">Tháng</option>
                         <option value="2">Năm</option>
                     </select>
@@ -43,9 +46,11 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="radio" name="tk" value="1"  />Thống kê đọc giả đăng kí mới</td>
+                    <input type="radio" name="tk" value="1" />Thống kê đọc giả đăng kí mới
+                    <span style="color: red;" class="noticeform_TK" hidden>*</span>
+                </td>
                 <td rowspan="3" style="width: 100px">
-                    <input type="button" value="Thống kê" style="width: 80px; height: 100px;" id="btnFormTK"/></td>
+                    <input type="button" value="Thống kê" style="width: 80px; height: 100px;" id="btnFormTK" /></td>
             </tr>
             <tr>
                 <td colspan="2">
@@ -60,17 +65,17 @@
 </div>
 
 <div id="content_TKDG_right">
-    <p style="font-style: italic; font-size: 14px;font-weight:bold;">Biểu đồ thống kê</p>
+    <p style="font-style: italic; font-size: 14px; font-weight: bold;">Biểu đồ thống kê</p>
     <canvas id="canvas" height="400" width="450"></canvas>
     <div>
-        <input type="button" id="detailTK" value="Chi tiết" hidden/>
+        <input type="button" id="detailTK" value="Chi tiết" hidden />
     </div>
 </div>
 
 <br />
 @if (Model != null)
 {
-    <table width='650' border='1' style="display: inline-block; margin-top: 10px; margin-left: 60px;font-size:15px;">
+    <table width='650' border='1' style="display: inline-block; margin-top: 10px; margin-left: 60px; font-size: 15px;">
         <tr>
             <td width='70'>Mã ĐG</td>
             <td width='100'>Họ tên</td>
@@ -114,5 +119,5 @@
             </tr>
         }
     </table>
-    @Html.PagedListPager(Model, page => Url.Action("rsThongKe", new { page,tngay=@ViewBag.tn,dngay=@ViewBag.dn,loai=@ViewBag.loai,tk=@ViewBag.tk }))
+    @Html.PagedListPager(Model, page => Url.Action("rsThongKe", new { page, tngay = @ViewBag.tn, dngay = @ViewBag.dn, loai = @ViewBag.loai, tk = @ViewBag.tk }))
 }
